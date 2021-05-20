@@ -1,0 +1,37 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Century Gothic;
+}
+header{
+background-image: url(../1.png);
+height: 110vh;
+background-size: cover;
+background-position: center;
+}
+ul{
+list-style-type: none;
+}
+ul li{
+float: Right;
+margin-top: 10px;
+}
+ul li a{
+text-decoration: none;
+color: #000;
+display: block;
+padding: 5px 15px;
+border: 1px solid #000;
+}
+ul li a:hover{
+background-color: #000;
+transition: 1s all ease;
+color: #fff;
+}
+ul li ul li{
+	display: none;	
+        background-color: #f6ff33;
+}
+ul li:hover ul li{
+	display: block;
+}
